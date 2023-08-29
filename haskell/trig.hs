@@ -1,3 +1,7 @@
+#!/usr/bin/env runghc
+
+-- Simple script to generate trig questions for daughter's math practice.
+
 import Control.Arrow
 import Data.List
 

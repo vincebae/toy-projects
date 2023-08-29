@@ -1,3 +1,7 @@
+#!/usr/bin/env ts-node
+
+// Simple script to generate trig questions for daughter's math practice.
+
 import { Fraction } from './fraction';
 
 type Degree = {
