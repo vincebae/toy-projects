@@ -1,0 +1,27 @@
+{
+  "name": "apiserver",
+  "version": "0.0.1",
+  "description": "REST API server",
+  "main": "index.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seung-Bin Bae",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.14.0",
+    "express": "^4.18.2",
+    "tslib": "^2.5.0"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}

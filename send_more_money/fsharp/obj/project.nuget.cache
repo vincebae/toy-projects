@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dDbKyDApoySY8Xnni7KooZauS3R8SAmPGHZh+gew4RXA2kcEZNqZrNme1nVQ2ws0UDeZ9zOHZHqcwjMsUOFA+Q==",
+  "success": true,
+  "projectFilePath": "/home/vincebae/code/practice/toy_projects/send_more_money/fsharp/SendMoreMoney.fsproj",
+  "expectedPackageFiles": [
+    "/home/vincebae/.nuget/packages/fsharp.core/6.0.7/fsharp.core.6.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/SendMoreMoney/META"
+  "_build/install/default/lib/SendMoreMoney/dune-package"
+  "_build/install/default/lib/SendMoreMoney/opam"
+]
+bin: [
+  "_build/install/default/bin/SendMoreMoney"
+]

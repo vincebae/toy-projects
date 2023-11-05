@@ -1,0 +1,28 @@
+<!-- src/app/home/home.component.html -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="jumbotron">
+        <h1>Home of {{title}}</h1>
+        <p>This is home of biniko.me</p>
+      </div>
+      <div class="content" role="main">
+        <h3>Tech stacks used:</h3>
+        <ul>
+          <li *ngFor="let tech of techstack">
+            {{tech.role}}
+            <ul>
+              <li>{{tech.name}}</li>
+              <li>tags: {{tech.tags.join(", ")}}</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+      

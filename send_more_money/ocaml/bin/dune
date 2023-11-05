@@ -1,0 +1,4 @@
+(executable
+ (public_name SendMoreMoney)
+ (name main)
+ (libraries SendMoreMoney))
